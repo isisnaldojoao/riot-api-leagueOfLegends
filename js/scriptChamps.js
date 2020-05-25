@@ -1,5 +1,5 @@
 const divContainer = document.getElementById("container");
-const divLoad = document.getElementById("load");
+const imgLoad = document.getElementById("load");
 
 document.addEventListener("DOMContentLoaded", function () {
     
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         const keysMapped = keysChamp.map(key => {
             let nameChamp = champions[key].id;
-            divLoad.style.display ='none';
+            imgLoad.style.display ='none';
             divContainer.innerHTML +=
                 `
             <div class="champs">
@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             `;
         })
-        
     }
     getChampions();
 })
