@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
+}
+a{
+    text-align: center;
+    width: 8rem;
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 25px 0px 0px 35px;
+}
+a:hover{
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+body{
+    background-color: #1e2338;
+}
+#container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.champs{
+    margin-top: 25px;
+    width: 25%;
+    text-align: center;
+}
+.champs img{
+    border: 1px solid rgb(194, 194, 194);
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+}
+.champs p{
+    font-size: 1rem;
+    color: rgb(194, 194, 194);
+    margin-bottom: 10px;
+}

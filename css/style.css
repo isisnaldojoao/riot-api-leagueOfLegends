@@ -39,10 +39,29 @@ nav img{
 }
 .form-search{
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-search a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 40px;
+    border: 2px solid #FF2727;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #141111;
+}
+.form-search a:hover{
+    color: white;  
 }
 #inputchampion{
     padding-left: 10px;
-    height: 30px;
+    height: 40px;
     background-color: rgb(149, 129, 131, 63%);
     border: 2px solid #FF2727;
     width: 140px;
@@ -50,11 +69,11 @@ nav img{
     font-size: 1.2rem;
 }
 #inputchampion:hover{
-    opacity: 0.8;
-    transition: 0.5s; 
+    opacity: 0.9;
+    transition: 0.2s; 
 }
 #buttonchampion{
-    height: 30px;
+    height: 40px;
     border: 2px solid #FF2727;
     width: 100px;
     font-size: 1.2rem;
