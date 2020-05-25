@@ -5,6 +5,15 @@
     box-sizing: border-box;
     font-family: sans-serif, Tahoma, Geneva, Verdana;
 }
+#load{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    animation: loaded 1s linear infinite;
+}
 a{
     text-align: center;
     width: 8rem;
@@ -42,4 +51,7 @@ body{
     font-size: 1rem;
     color: rgb(194, 194, 194);
     margin-bottom: 10px;
+}
+@keyframes loaded{
+    to{transform: rotate(360deg);}
 }

@@ -9,7 +9,7 @@ async function getChampions(event) {
         event.preventDefault();
     } else {
         const inputText = inputChampion.value;
-
+        
         const url2= `http://ddragon.leagueoflegends.com/cdn/10.10.3216176/data/en_US/champion.json`;
         const url = `https://ddragon.leagueoflegends.com/cdn/10.10.3216176/data/pt_BR/champion/${inputText}.json`;
         
@@ -19,7 +19,6 @@ async function getChampions(event) {
 
         const urlImgLow = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${inputText}_0.jpg`
         const urlImg = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${inputText}_0.jpg`;
-
 
         divChampOne.innerHTML =
             `
